@@ -20,8 +20,10 @@ file_name = os.path.basename(audio.default_filename)
 
 if ' ' in file_name:
     os.rename(file_name, file_name.replace(' ', '_'))
+    file_name = file_name.replace(' ','_')
 
 
+print(file_name)
 file_without_ext = os.path.splitext(file_name)[0]
 
 
@@ -30,6 +32,8 @@ command = f"ffmpeg -i {file_name} {file_without_ext}.mp3"
 print(command)
 
 os.system(command)
+
+os.remove(file_name)
 
 
 
