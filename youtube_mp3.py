@@ -25,11 +25,11 @@ if ' ' in file_name:
 file_without_ext = os.path.splitext(file_name)[0]
 
 
-""" command = f"ffmpeg -i {x} {file_without_ext}.mp3"
+command = f"ffmpeg -i {x} {file_without_ext}.mp3"
 
 print(command)
 
 os.system(command)
- """
+
 
 
