@@ -9,7 +9,7 @@ audio = yt.streams.get_audio_only()
 
 audio.download()
 
-file_name = os.path.basename(audio.default_filename)
+file_name = audio.default_filename
 
 if ' ' in file_name:
     os.rename(file_name, file_name.replace(' ', '_'))
