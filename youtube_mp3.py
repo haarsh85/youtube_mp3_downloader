@@ -22,6 +22,3 @@ command = f"ffmpeg -i {file_name} {file_without_ext}.mp3"
 os.system(command)
 
 os.remove(file_name)
-
-
-
