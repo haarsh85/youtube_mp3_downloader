@@ -1,5 +1,4 @@
 from pytube import YouTube
-import ffmpeg
 import os
 
 video_url = input("Please enter the video URL: ")
@@ -10,9 +9,6 @@ video_title = yt.title
 #Get highest bitrate audio stream for given codec (defaults to mp4)
 audio = yt.streams.get_audio_only()
 
-""" if ' ' in audio.default_filename:
-    audio = audio.default_filename.replace(' ', '_')
-    print(audio) """
 
 audio.download()
 
