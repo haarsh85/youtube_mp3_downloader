@@ -2,7 +2,7 @@ from pytube import YouTube
 import ffmpeg
 import os
 
-video_url = "https://www.youtube.com/watch?v=8oMPO_3DKNM"
+video_url = input("Please enter the video URL: ")
 yt = YouTube(video_url)
 
 video_title = yt.title
