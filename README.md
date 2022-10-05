@@ -6,6 +6,7 @@ This code covers the below use-cases;
 - This code is written on Windows machine so some steps may differ for other operating systems.
 - Asks for user input to get the YouTube video URL.
 - Initially, downloads the highest bit-rate audio stream in mp4.
+- UPDATE: Custom path can be set as the download location.
 - Rename the downloaded file name.
 - Convert the file to mp3.
 - Delete the initially downloaded mp4 file after conversion.
