@@ -10,7 +10,7 @@ This code covers the below use-cases;
 - Convert the file to mp3.
 - Delete the initially downloaded mp4 file after conversion.
 
-#UPDATE: Added custom path for Downloads
+# UPDATE: Added custom path for Downloads
 Download location can be changed using the path variable.
 
 For more code explanation please visit: https://harshananayakkara.medium.com/download-audio-from-youtube-convert-mp4-to-mp3-python-pytube-ffmpeg-6163498c051f
