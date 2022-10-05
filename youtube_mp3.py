@@ -15,8 +15,6 @@ file_name = audio.default_filename
 
 source = path + file_name
 
-print(source)
-
 if ' ' in file_name:
     os.rename(source, source.replace(' ', '_'))
     file_name = source.replace(' ','_')
